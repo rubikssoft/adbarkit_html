@@ -141,6 +141,20 @@ a {
     opacity: 1;
 }
 
+.banner-cash-advance {
+    height: 100vh;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 104%; */
+    /* UI Properties */
+    background: url('../img/discount-bg.png');
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    opacity: 1;
+}
+
 .them-content {
     margin: 20px;
     padding: 20px;
@@ -464,3 +478,63 @@ a {
 
 
 /* #82C5FF */
+
+
+/* Advance cash program */
+
+._advance-heading {
+    text-align: center;
+    font: Semi Bold 36px/44px Montserrat;
+    letter-spacing: 0px;
+    color: #1E1A33;
+    opacity: 1;
+    font-weight: bold;
+}
+
+._advance-heading span {
+    font-size: 16px;
+}
+
+._section-intro {
+    text-align: center;
+    padding: 50px 10px 50px 10px;
+}
+
+._section-2-seco-heading {
+    color: #046EC8;
+    text-align: center;
+    border: black;
+    padding: 20px 10px 20px 10px;
+}
+
+._section-2-para {
+    text-align: center;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+.section-advance-program {
+    margin-top: 46px;
+}
+
+.section-advance-program h3 {
+    font-weight: bold;
+}
+
+.section-advance-program p {
+    text-align: center;
+}
+
+.para-align-center {
+    text-align: center;
+}
+
+.para-align-center button {
+    margin-top: 46px;
+    margin-bottom: 46px;
+    background-color: #C74C0E;
+    padding: 20px 10px 20px 10px;
+    border: none;
+    font-weight: bold;
+    color: #FFFFFF;
+}
