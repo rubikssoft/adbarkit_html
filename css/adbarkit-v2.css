@@ -5,6 +5,8 @@ html {
     overflow: scroll;
 }
 
+
+
 .navbar {
     top: 0px;
     left: 0px;
@@ -139,6 +141,10 @@ a {
     background-repeat: no-repeat;
     /* background-size: 100%; */
     opacity: 1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .them-content {
@@ -464,3 +470,104 @@ a {
 
 
 /* #82C5FF */
+
+.section-2 .cash-discount-label {
+    font-size: 12px;
+    width: 55%;
+    padding: 11px;
+}
+
+@media only screen and (max-width: 600px) {
+    .home-bg-1 {
+        margin-top: 100px;
+        height: 30vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* width: 104%; */
+        background: url(../img/banner.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .section-2 {
+        /* height: 30vh; */
+        font-family: Montserrat;
+        background: transparent url(../img/Depositphotos_243559328_l-2015.png) 0% 0% no-repeat padding-box;
+        mix-blend-mode: color-burn;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .section-2-row {
+        height: 1px;
+    }
+
+    .section-2-row .col {
+        width: 30%;
+        height: 10%;
+    }
+
+    .section-2-row img {
+        width: inherit;
+
+    }
+
+    .section-2-cash-machine h3 {
+        font-size: 13px;
+
+    }
+
+    .section-2-row .section-2-cash-machine {
+        padding-top: 2px;
+        text-align: center;
+    }
+
+    .section-2-row svg {
+        width: 13%;
+
+    }
+
+    .section-2 .cash-discount-label {
+        font-size: 5px;
+        width: 55%;
+        padding: 11px;
+    }
+
+    video,
+    canvas {
+        width: 314px;
+    }
+
+
+    .section-3 {
+
+        font-family: Montserrat;
+        background: transparent url(../img/bg-3.png) 0% 0% no-repeat padding-box;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+
+        padding-top: 46px;
+        padding-bottom: 46px;
+    }
+
+    ._section-3-heading {
+        padding-left: 0px;
+    }
+
+    .section-4 {
+
+        font-family: Montserrat;
+        background: transparent url(../img/bg3.png) 0% 0% no-repeat padding-box;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+
+        padding-top: 46px;
+        padding-bottom: 46px;
+    }
+
+}

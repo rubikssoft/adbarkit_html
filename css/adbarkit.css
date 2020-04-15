@@ -1,9 +1,9 @@
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
     .container {
         max-width: 98%;
     }
 
-}
+} */
 
 
 body {
@@ -157,20 +157,6 @@ a {
     opacity: 1;
 }
 
-.home-bg2 {
-    top: 902px;
-    left: -2px;
-    width: 100%;
-    height: 830px;
-    /* UI Properties */
-
-    font-family: Montserrat;
-
-    background: transparent url('../img/Depositphotos_243559328_l-2015.png') 0% 0% no-repeat padding-box;
-    opacity: 0.7;
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
 
 .home-box {
 
@@ -188,6 +174,7 @@ a {
     position: relative;
     z-index: 10;
 }
+
 
 .home-box .welcome-label {
 
@@ -291,9 +278,12 @@ a {
 }
 
 
-.home-bg2 .label-3 {
-
+.section2 {
     text-align: center;
+}
+
+.section2 .label-3 {
+
     font-size: 25px;
     margin-top: 100px;
     color: #C74C0E;
@@ -302,43 +292,33 @@ a {
 
 
 
-.home-bg2 .label-4 {
-    text-align: center;
+.section2 .label-4 {
+
     font-size: 16px;
     margin-top: 60px;
-    letter-spacing: 0px;
+
     color: #000;
-    opacity: 1;
+
     font-weight: 500;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 100px;
 }
 
 
-.home-bg3 {
-
-    width: 100%;
-    height: 830px;
-    /* UI Properties */
-
-    font-family: Montserrat;
-    /* background-color: #6a7179; */
-    background: #6a7179 url('../img/home-bg3.png') 0% 0% no-repeat padding-box;
-    mix-blend-mode: color-burn;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding-top: 30px;
+.section3 {
+    padding-top: 115px;
 }
 
-.home-bg3 .center-div {
+.section3 .center-div {
     margin-left: auto;
     margin-right: auto;
     color: #fff;
     margin-top: 160px;
 }
 
-.home-bg3 .img-div {
+.section3 .img-div {
 
     /* UI Properties */
     background: transparent url('../img/Blue Rectangle.png') 0% 0% no-repeat padding-box;
@@ -353,7 +333,7 @@ a {
 
 
 
-.home-bg3 .image-shadow {
+.section3 .image-shadow {
     width: 541px;
     height: 348px;
 
@@ -365,7 +345,7 @@ a {
 }
 
 
-.home-bg3 .label1 {
+.section3 .label1 {
     width: 387px;
     height: 120px;
     /* UI Properties */
@@ -379,7 +359,7 @@ a {
 }
 
 
-.home-bg3 .label2 {
+.section3 .label2 {
 
 
     width: 380px;
@@ -397,7 +377,7 @@ a {
 
 
 
-.home-bg3 .label3 {
+.section3 .label3 {
 
 
     width: 358px;
@@ -410,7 +390,7 @@ a {
 
 }
 
-.home-bg3 .button {
+.section3 .button {
 
     width: 228px;
     height: 66px;
@@ -423,7 +403,7 @@ a {
     padding: 20px;
 }
 
-home-bg3 .button .label {
+.section3 .button .label {
 
 
     width: 120px;
@@ -445,29 +425,18 @@ home-bg3 .button .label {
 
 /* bg4 */
 
-.home-bg4 {
-
-    width: 100%;
-    height: 830px;
-    /* UI Properties */
-
-    font-family: Montserrat;
-    /* background-color: #6a7179; */
-    background: #6a7179 url('../img/Depositphotos_243559328_l-2015.png') 0% 0% no-repeat padding-box;
-    mix-blend-mode: color-burn;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding-top: 30px;
+.section4 {
+    padding-top: 115px;
 }
 
-.home-bg4 .center-div {
+.section4 .center-div {
     margin-left: auto;
     margin-right: auto;
     color: #fff;
     margin-top: 160px;
 }
 
-.home-bg4 .img-div {
+.section4 .img-div {
 
     /* UI Properties */
     background: transparent url('../img/Blue Rectangle.png') 0% 0% no-repeat padding-box;
@@ -482,7 +451,7 @@ home-bg3 .button .label {
 
 
 
-.home-bg4 .image-shadow {
+.section4 .image-shadow {
     width: 541px;
     height: 348px;
 
@@ -493,8 +462,18 @@ home-bg3 .button .label {
 
 }
 
+.video {
+    width: 541px;
+    height: 348px;
 
-.home-bg4 .label1 {
+    -webkit-box-shadow: -13px 10px 3px -1px rgba(28, 110, 200, 1);
+    -moz-box-shadow: -13px 10px 3px -1px rgba(28, 110, 200, 1);
+    box-shadow: -13px 10px 3px -1px rgba(28, 110, 200, 1);
+
+}
+
+
+.section4 .label1 {
     width: 387px;
     height: 120px;
     /* UI Properties */
@@ -508,7 +487,7 @@ home-bg3 .button .label {
 }
 
 
-.home-bg4 .label2 {
+.section4 .label2 {
 
 
     width: 380px;
@@ -526,7 +505,7 @@ home-bg3 .button .label {
 
 
 
-.home-bg4 .label3 {
+.section4 .label3 {
 
 
     width: 358px;
@@ -539,7 +518,7 @@ home-bg3 .button .label {
 
 }
 
-.home-bg4 .button {
+.section4 .button {
 
     width: 228px;
     height: 66px;
@@ -552,7 +531,7 @@ home-bg3 .button .label {
     padding: 20px;
 }
 
-home-bg4 .button .label {
+.section4 .button .label {
 
 
     width: 120px;
@@ -566,7 +545,7 @@ home-bg4 .button .label {
     color: #FFFFFF;
 }
 
-.home-bg4 .note {
+.section4 .note {
     width: 784px;
     height: 24px;
     /* UI Properties */
@@ -577,9 +556,10 @@ home-bg4 .button .label {
     opacity: 1;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 50px;
 }
 
-.home-bg4 .start-saving {
+.section4 .start-saving {
     width: 276px;
     height: 50px;
     /* UI Properties */
@@ -592,9 +572,10 @@ home-bg4 .button .label {
     padding: 14px;
     padding-left: 30px;
     margin-top: 90px;
+    margin-bottom: 70px;
 }
 
-.home-bg4 .start-saving .money {
+.section4 .start-saving .money {
     width: 39px;
     height: 22px;
     /* UI Properties */
@@ -603,7 +584,7 @@ home-bg4 .button .label {
 }
 
 
-.home-bg4 .start-saving .label {
+.section4 .start-saving .label {
     width: 200px;
     height: 14px;
     text-align: center;
