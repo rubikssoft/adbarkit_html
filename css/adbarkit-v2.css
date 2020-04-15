@@ -147,6 +147,21 @@ a {
     background-size: cover;
 }
 
+.banner-cash-advance {
+
+    height: 100vh;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 104%; */
+    /* UI Properties */
+    background: url('../img/discount-bg.png');
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    opacity: 1;
+}
+
 .them-content {
     margin: 20px;
     padding: 20px;
@@ -182,8 +197,6 @@ a {
 .home-box {
     margin-left: auto;
     margin-right: auto;
-    width: 700px;
-    height: 500px;
     background-color: #fff;
     box-shadow: 0px 5px 30px #1E1A33;
     border-radius: 20px;
@@ -231,6 +244,8 @@ a {
     padding: 10px;
     width: 230px;
     font-weight: bold;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .home-box .label-2 {
@@ -243,6 +258,8 @@ a {
     letter-spacing: 0px;
     color: #003563;
     opacity: 1;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 55px;
     ;
 }
@@ -321,7 +338,7 @@ a {
     background: transparent url('../img/Depositphotos_243559328_l-2015.png') 0% 0% no-repeat padding-box;
     mix-blend-mode: color-burn;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 .section-2-row {
@@ -396,7 +413,7 @@ a {
     width: 100%;
     mix-blend-mode: color-burn;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     padding-top: 46px;
     padding-bottom: 46px;
 }
@@ -475,6 +492,417 @@ a {
     font-size: 12px;
     width: 55%;
     padding: 11px;
+}
+
+
+/* Advance cash program */
+
+._advance-heading {
+    text-align: center;
+    font: Semi Bold 36px/44px Montserrat;
+    letter-spacing: 0px;
+    color: #1E1A33;
+    opacity: 1;
+    font-weight: bold;
+}
+
+._advance-heading span {
+    font-size: 16px;
+}
+
+._section-intro {
+    text-align: center;
+    padding: 50px 10px 50px 10px;
+}
+
+._section-2-seco-heading {
+    color: #046EC8;
+    text-align: center;
+    border: black;
+    padding: 20px 10px 20px 10px;
+}
+
+._section-2-para {
+    text-align: center;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+.section-advance-program {
+    margin-top: 46px;
+}
+
+.section-advance-program h3 {
+    font-weight: bold;
+}
+
+.section-advance-program p {
+    text-align: center;
+}
+
+.para-align-center {
+    text-align: center;
+}
+
+.para-align-center button {
+    margin-top: 46px;
+    margin-bottom: 46px;
+    background-color: #C74C0E;
+    padding: 20px 10px 20px 10px;
+    border: none;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.banner-home {
+    height: 100vh;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 104%; */
+    /* UI Properties */
+    background: url('../img/Depositphotos_83202704_l-2015.png');
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    opacity: 1;
+}
+
+.home-page .section-2 {
+    width: 100%;
+    height: 100%;
+    font-family: Montserrat;
+    background: transparent url('../img/Depositphotos_243559328_l-2015.png') 0% 0% no-repeat padding-box;
+    mix-blend-mode: color-burn;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.label-3 {
+    width: 25%;
+
+    font-size: 25px;
+    margin-top: 100px;
+    color: #C74C0E;
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.label-4 {
+
+    font-size: 16px;
+    margin-top: 60px;
+
+    color: #000;
+
+    font-weight: 500;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+}
+
+.home-page .section-3 {
+    width: 100%;
+    height: 100%;
+    font-family: Montserrat;
+    background: transparent url('../img/blue_pattern.jpg') 0% 0% no-repeat padding-box;
+    mix-blend-mode: color-burn;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+.home-page .section-3 {
+    padding-top: 115px;
+}
+
+.home-page .section-3 .center-div {
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    margin-top: 160px;
+}
+
+.home-page .section-3 .img-div {
+
+    /* UI Properties */
+    background: transparent url('../img/Blue Rectangle.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #82C5FF;
+    opacity: 1;
+}
+
+
+
+
+
+.image-shadow {
+
+
+    -webkit-box-shadow: -13px 10px 3px -1px rgba(28, 110, 200, 1);
+    -moz-box-shadow: -13px 10px 3px -1px rgba(28, 110, 200, 1);
+    box-shadow: -13px 10px 3px -1px rgba(28, 110, 200, 1);
+    /* background: transparent url('../img/Blue Rectangle-1.png') 0% 0% no-repeat padding-box; */
+
+}
+
+.home-page .section-3 img,
+.home-page .section-4 img {
+
+
+    width: 100%;
+    height: 100%;
+}
+
+
+.section-3 .label1 {
+    width: 387px;
+    height: 120px;
+    /* UI Properties */
+    text-align: left;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Montserrat;
+    color: #F5F6F7;
+    opacity: 1;
+    margin-bottom: 55px;
+}
+
+
+.section-3 .label2 {
+
+
+    width: 380px;
+    height: 29px;
+    /* UI Properties */
+    text-align: left;
+    font-size: 24;
+    font-weight: bold;
+    font-family: Montserrat;
+    letter-spacing: 0px;
+    color: #82C5FF;
+    opacity: 1;
+
+}
+
+
+.section-3 .label3 {
+
+
+    width: 358px;
+    height: 33px;
+    /* UI Properties */
+    text-align: left;
+    color: #F5F6F7;
+    opacity: 1;
+
+
+}
+
+.section-3 .button {
+
+    width: 228px;
+    height: 66px;
+    /* UI Properties */
+    background: #046EC8 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+.section-3 .button .label {
+
+
+    width: 120px;
+    height: 27px;
+    /* UI Properties */
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+
+    color: #FFFFFF;
+
+
+}
+
+
+
+
+
+.section-4 .center-div {
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    margin-top: 160px;
+}
+
+.section-4 .img-div {
+
+    /* UI Properties */
+    background: transparent url('../img/Blue Rectangle.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #82C5FF;
+    opacity: 1;
+}
+
+
+
+
+.section-4 .image-shadow {
+    -webkit-box-shadow: -13px 10px 3px -1px rgba(28, 110, 200, 1);
+    -moz-box-shadow: -13px 10px 3px -1px rgba(28, 110, 200, 1);
+    box-shadow: -13px 10px 3px -1px rgba(28, 110, 200, 1);
+    background: transparent url('../img/Blue Rectangle.png') 0% 0% no-repeat padding-box;
+
+}
+
+.video {
+    width: 541px;
+    height: 348px;
+
+    -webkit-box-shadow: -13px 10px 3px -1px rgba(28, 110, 200, 1);
+    -moz-box-shadow: -13px 10px 3px -1px rgba(28, 110, 200, 1);
+    box-shadow: -13px 10px 3px -1px rgba(28, 110, 200, 1);
+
+}
+
+
+.section-4 .label1 {
+    width: 387px;
+    height: 120px;
+    /* UI Properties */
+    text-align: left;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Montserrat;
+    color: #003563;
+    opacity: 1;
+    margin-bottom: 55px;
+}
+
+
+.section-4 .label2 {
+
+
+    width: 380px;
+    height: 29px;
+    /* UI Properties */
+    text-align: left;
+    font-size: 24;
+    font-weight: bold;
+    font-family: Montserrat;
+    letter-spacing: 0px;
+    color: #046EC8;
+    opacity: 1;
+
+}
+
+
+
+.section-4 .label3 {
+
+
+    width: 358px;
+    height: 33px;
+    /* UI Properties */
+    text-align: left;
+    color: #F5F6F7;
+    opacity: 1;
+
+
+}
+
+.section-4 .button {
+
+    width: 228px;
+    height: 66px;
+    /* UI Properties */
+    background: #046EC8 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+.section-4 .button .label {
+
+
+    width: 120px;
+    height: 27px;
+    /* UI Properties */
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+
+    color: #FFFFFF;
+}
+
+.section-4 .note {
+
+    /* UI Properties */
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #000000;
+    opacity: 1;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.section-4 .start-saving {
+
+    /* UI Properties */
+    background: #C74C0E 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 14px;
+    padding-left: 30px;
+    margin-top: 90px;
+    margin-bottom: 70px;
+}
+
+.section-4 .start-saving .money {
+    width: 39px;
+    height: 22px;
+    /* UI Properties */
+    background: transparent url('../img/stack-of-dollar-bills.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+
+.section-4 .start-saving .label {
+    width: 200px;
+    height: 14px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.home-box img {
+    width: 50%;
+}
+
+
+.navbar img {
+    width: 22%;
+}
+
+.nav-user-info {
+    display: contents;
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -561,7 +989,7 @@ a {
     .section-4 {
 
         font-family: Montserrat;
-        background: transparent url(../img/bg3.png) 0% 0% no-repeat padding-box;
+        background: transparent url('../img/bg-3.png') 0% 0% no-repeat padding-box;
         background-repeat: no-repeat;
         background-size: 100% 100%;
         background-position: center;
@@ -569,5 +997,131 @@ a {
         padding-top: 46px;
         padding-bottom: 46px;
     }
+
+    .section-5 h2 {
+        font-size: 14px;
+    }
+
+    .section-5 img {
+        width: 15px;
+    }
+
+    footer img {
+        width: 50%;
+        padding: 2px;
+    }
+
+    footer p,
+    footer .footer-text {
+        font-size: 13px;
+    }
+
+
+
+
+
+    /* cash advance  */
+    .banner-cash-advance {
+        margin-top: 100px;
+        height: 30vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* width: 104%; */
+        background: url('../img/discount-bg.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .cash-advance-page ._advance-heading {
+        font-size: 25px;
+    }
+
+    .cash-advance-page ._section-2-para {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .cash-advance-page h3 {
+        font-size: 18px;
+    }
+
+    .cash-advance-page .section-advance-program {
+        display: block;
+    }
+
+    .banner-home {
+        margin-top: 100px;
+        height: 30vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* width: 104%; */
+        background: url('../img/Depositphotos_83202704_l-2015.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .home-page .section-2 {
+        margin-top: 10px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: Montserrat;
+        background: transparent url('../img/Depositphotos_243559328_l-2015.png') 0% 0% no-repeat padding-box;
+        mix-blend-mode: color-burn;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .home-page .label-3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .home-page .section-3 .label1,
+    .home-page .section-4 .label1 {
+        font-size: 40px;
+    }
+
+    .home-box {
+        margin-right: 15px;
+        margin-left: 15px;
+        width: 90%;
+        margin-top: 0px;
+    }
+
+    .navbar img {
+        width: 30%;
+    }
+
+    .navbar-toggler {
+        font-size: 20px;
+        background-color: #000;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .navbar-toggler-icon {
+
+        color: #fff;
+        font-size: 18px;
+
+    }
+
+    .navbar-collapse {
+        background-color: white;
+        padding-left: 18px;
+
+    }
+
+    .nav-item {
+        height: 49px;
+    }
+
+    .nav-user-info {
+        display: flex;
+    }
+
 
 }
